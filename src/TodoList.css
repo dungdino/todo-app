@@ -1,0 +1,19 @@
+.note-list {
+  padding: 10px;
+}
+
+.note-list ul {
+  list-style-type: none;
+}
+
+.note-list ul li {
+  margin: 20px 0;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.btn-xoa,
+.btn-sua {
+  float: right;
+  margin: 0 5px;
+}

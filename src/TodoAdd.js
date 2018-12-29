@@ -1,13 +1,10 @@
 import React, { Component } from "react";
-
+import "./TodoAdd.css";
 class TodoAdd extends Component {
   render() {
     return (
-      <div>
-        <input
-          className="content-note"
-          placeholder="Nhập vào nội dung ghi chú!"
-        />
+      <div className="todo-add">
+        <input type="text" placeholder="Nhập vào ghi chú!" />
       </div>
     );
   }

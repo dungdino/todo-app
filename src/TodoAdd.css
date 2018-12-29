@@ -1,0 +1,10 @@
+.todo-add input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid green;
+  outline: none;
+}
+
+.todo-add input::placeholder {
+  font-style: italic;
+}

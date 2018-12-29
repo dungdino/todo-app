@@ -1,16 +1,4 @@
 .App {
-  width: 600px;
+  max-width: 600px;
   margin: 10px auto;
-}
-
-.content-note {
-  width: 100%;
-  padding: 10px;
-  outline: none;
-  font-size: 20px;
-  border-radius: 10px;
-}
-
-.content-note::placeholder {
-  font-style: italic;
 }
